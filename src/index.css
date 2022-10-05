@@ -92,9 +92,12 @@
   font-family: 'Anton', sans-serif;
 }
 
+.meme--container img{
+  margin-top: 10px;
+}
 
 span.top--text{
-  top: 45px;
+  top: 50px;
 }
 
 span.bottom--text{
