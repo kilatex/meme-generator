@@ -1,0 +1,102 @@
+*{
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+}
+.header{
+  display: flex;
+  background: rgb(31,0,36);
+  background: linear-gradient(90deg, rgba(31,0,36,1) 3%, rgba(93,17,113,1) 50%, rgba(156,42,171,1) 100%);  
+  color: white;
+  padding: 10px 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img{
+  width: 70px;
+}
+.left{
+  display: flex;
+}
+
+.left div{
+  align-self: center;
+  margin-left: 5px;
+}
+
+/* MAIN STYLES */
+.main{
+  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.inputs--container{
+  display: flex;
+  justify-content: center;
+}
+
+.inputs--container input[type=text]{
+  width: 250px;
+  height: 30px;
+  border: solid 1.5px #D3D3D3;
+  margin: 0px 10px;
+}
+
+
+.inputs--container input[type=text]:hover{
+  box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+
+.inputs--container input[type=text]:focus {
+  box-shadow: 0 0 5pt 2pt #D3D3D3;
+  outline-width: 0px;
+}
+.submit--container{
+  width: 40%;
+  margin: 0 auto;
+}
+
+.submit{
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  border: none;
+  padding: 15px 50px;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  background: rgb(31,0,36);
+  background: linear-gradient(90deg, rgba(31,0,36,1) 3%, rgba(93,17,113,1) 50%, rgba(156,42,171,1) 100%);  
+  transition: all 500ms;
+}
+
+.submit:hover{
+  background: rgb(31,0,36);
+  background: linear-gradient(90deg, rgba(31,0,36,1) 3%, rgba(73,14,88,1) 50%, rgba(108,29,119,1) 100%);
+}
+
+.meme--container{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0px auto;
+}
+
+.meme--container span{
+  line-height: 20px;
+  font-weight: bold;
+  font-size: 48px;
+  position: relative;
+  color: white;
+  font-family: 'Anton', sans-serif;
+}
+
+
+span.top--text{
+  top: 45px;
+}
+
+span.bottom--text{
+  top: -45px;
+}
